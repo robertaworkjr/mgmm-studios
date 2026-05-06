@@ -1,0 +1,31 @@
+kind = "slides"
+previewPath = "/mgmm-pitch-deck/"
+title = "MGMM Studios Deck"
+version = "1.0.0"
+id = "artifacts/mgmm-pitch-deck"
+router = "path"
+
+[[integratedSkills]]
+name = "slides"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/mgmm-pitch-deck/" ]
+localPort = 23802
+
+[services.development]
+run = "pnpm --filter @workspace/mgmm-pitch-deck run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mgmm-pitch-deck", "run", "build" ]
+publicDir = "artifacts/mgmm-pitch-deck/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23802"
+BASE_PATH = "/mgmm-pitch-deck/"

@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Ed0Mn6p-9tbAbOXUTlZa3"
+uri = "file://artifacts/mgmm-studios/src/assets/hero-bg.png"
+type = "image"
+title = "Cinematic hero background"
+
+[[generated]]
+id = "LQcTiy-t1kEFxqFtzQE7u"
+uri = "file://artifacts/mgmm-studios/src/assets/poster-soul-boys.png"
+type = "image"
+title = "Soul boys film poster"
+
+[[generated]]
+id = "m47KwZWfPZex7yzRXTSTb"
+uri = "file://artifacts/mgmm-studios/src/assets/poster-hamburg.png"
+type = "image"
+title = "Beatles hamburg film poster"
+
+[[generated]]
+id = "uk-Ycvd0LXcyx4anIdB6g"
+uri = "file://artifacts/mgmm-studios/src/assets/poster-lennon.png"
+type = "image"
+title = "Lennon weekend film poster"
+
+[[generated]]
+id = "o63EjZ2LBifzvel6PfNbV"
+uri = "file://artifacts/mgmm-studios/src/assets/poster-ravers.png"
+type = "image"
+title = "Rave documentary poster"
+
+[[generated]]
+id = "HWpIeW_-f5DNYXwJAq3GM"
+uri = "file://artifacts/mgmm-pitch-deck/public/hero-camera.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Ps_e53Qi7h7_OJTk8uuW2"
+uri = "file://artifacts/mgmm-pitch-deck/public/filmstrip.png"
+type = "image"
+title = "generated_image"

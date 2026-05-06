@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "MGMM Studios"
+version = "1.0.0"
+id = "artifacts/mgmm-studios"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22039
+
+[services.development]
+run = "pnpm --filter @workspace/mgmm-studios run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mgmm-studios", "run", "build" ]
+publicDir = "artifacts/mgmm-studios/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22039"
+BASE_PATH = "/"

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4abc-8def-111111111111",
+    "position": 1,
+    "filepath": "src/pages/slides/Slide1Title.tsx",
+    "title": "MGMM Studios",
+    "description": "Title slide — The Pioneers of Music Video",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0002-4abc-8def-222222222222",
+    "position": 2,
+    "filepath": "src/pages/slides/Slide2TheStudio.tsx",
+    "title": "The Studio",
+    "description": "Studio overview with key stats",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0003-4abc-8def-333333333333",
+    "position": 3,
+    "filepath": "src/pages/slides/Slide3TheInvention.tsx",
+    "title": "The Invention",
+    "description": "Video Killed the Radio Star — the first MTV video",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0004-4abc-8def-444444444444",
+    "position": 4,
+    "filepath": "src/pages/slides/Slide4TheArchive.tsx",
+    "title": "The Archive",
+    "description": "Iconic music video productions",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0005-4abc-8def-555555555555",
+    "position": 5,
+    "filepath": "src/pages/slides/Slide5TheDirectors.tsx",
+    "title": "The Directors",
+    "description": "The visionary directors behind MGMM",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0006-4abc-8def-666666666666",
+    "position": 6,
+    "filepath": "src/pages/slides/Slide6DocumentaryFilms.tsx",
+    "title": "Documentary Films",
+    "description": "Feature documentary productions",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0007-4abc-8def-777777777777",
+    "position": 7,
+    "filepath": "src/pages/slides/Slide7Legacy.tsx",
+    "title": "Legacy",
+    "description": "Key legacy statistics and milestones",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0008-4abc-8def-888888888888",
+    "position": 8,
+    "filepath": "src/pages/slides/Slide8Closing.tsx",
+    "title": "MGMM Studios",
+    "description": "Closing slide with contact details",
+    "speakerNotes": ""
+  }
+]
